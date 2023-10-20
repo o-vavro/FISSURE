@@ -101,7 +101,7 @@ ls ~/.local/bin/fissure
 programs_ubuntu22_04.append(('GNU Radio (1.3 GB)',
 """sudo add-apt-repository -y ppa:gnuradio/gnuradio-releases
 sudo apt-get update
-sudo apt-get install -y gnuradio=3.10.5.1-0~gnuradio~jammy-2  # Check for changes here: https://launchpad.net/~gnuradio/+archive/ubuntu/gnuradio-releases
+sudo apt-get install -y gnuradio  #=3.10.7.0-0~gnuradio~jammy-2  # Check for changes here: https://launchpad.net/~gnuradio/+archive/ubuntu/gnuradio-releases
 sudo apt-get install -y uhd-host
 
 # Configure GNU Radio
@@ -2059,7 +2059,7 @@ programs_dragonOS_focalx.append(('expect Command Fix',
 # programs_dragonOS_focalx.append(('GNU Radio',
 # """sudo add-apt-repository -y ppa:gnuradio/gnuradio-releases
 # sudo apt-get update
-# sudo apt-get install -y gnuradio=3.10.5.1-0~gnuradio~jammy-2
+# sudo apt-get install -y gnuradio  #=3.10.7.0-0~gnuradio~jammy-2
 # sudo apt-get install -y uhd-host
 
 # # Configure GNU Radio
@@ -4020,7 +4020,7 @@ ls ~/.local/bin/fissure
 programs_kali2023_1.append(('GNU Radio (826.9 MB)',
 """#sudo add-apt-repository -y ppa:gnuradio/gnuradio-releases
 #sudo apt-get update
-sudo apt-get install -y gnuradio  #=3.10.5.1-0~gnuradio~jammy-2  # Check for changes here: https://launchpad.net/~gnuradio/+archive/ubuntu/gnuradio-releases
+sudo apt-get install -y gnuradio  #=3.10.7.0-0~gnuradio~jammy-2  # Check for changes here: https://launchpad.net/~gnuradio/+archive/ubuntu/gnuradio-releases
 sudo apt-get install -y uhd-host
 
 # Configure GNU Radio
@@ -5981,7 +5981,7 @@ ls ~/.local/bin/fissure
 programs_backbox_linux_8.append(('GNU Radio (1.3 GB)',
 """sudo add-apt-repository -y ppa:gnuradio/gnuradio-releases
 sudo apt-get update
-sudo apt-get install -y gnuradio=3.10.5.1-0~gnuradio~jammy-2  # Check for changes here: https://launchpad.net/~gnuradio/+archive/ubuntu/gnuradio-releases
+sudo apt-get install -y gnuradio  #=3.10.7.0-0~gnuradio~jammy-2  # Check for changes here: https://launchpad.net/~gnuradio/+archive/ubuntu/gnuradio-releases
 sudo apt-get install -y uhd-host
 
 # Configure GNU Radio
